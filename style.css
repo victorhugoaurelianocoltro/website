@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    font-size: 32px;
+    margin-top: 10px;
+    position: absolute;
+    top: 5px;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    background-color: #222D6F;
+    align-items: center;
+    justify-content: center;
+}
+
+header div{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lupa{
+    height: 40px;
+    width: 40px;
+}
+
+
+
+
+
+.carrinho{
+    width: 40px;
+    height: auto; 
+    right: -40%;
+}
+
+titulo{
+    font-size: 80px;
+}
+
+titulo span{
+text-align: center;
+font-size: bold;
+}
